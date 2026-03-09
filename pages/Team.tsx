@@ -14,7 +14,7 @@ const Team: React.FC = () => {
       name: 'Rev. Jorge Espinel, M.Div.',
       title: 'Supervisor Clínico',
       desc: 'Teólogo y educador apasionado por la integración de la psicología y la espiritualidad en la práctica clínica pastoral moderna.',
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCuZ71zX_XSlTYe_IM5F-a_0hIKiaaJH0oirXqKotf-xHb3SU2H3d-oD9NsrTDAU-qvp6hNRl3MN0tBQ5So5bIQeRYyMzytbif4wwedoAvKrDOePuow8pDDlNcECCE9PvNmbmT9L1BjikCrqIKgeyxXi4z56gJYQR5fmTUoRlHnJdBmigPIe9IawZHqAZX7ALNtX1oZDh1XjO6R1o7vo59IzhA3yGpOAlAWJVN_N-Sprt7tyAJhfgcpDxItEgj60j-DX6bmIuQHAco',
+      img: '/icons/Team/Jorge.png',
       cred: 'M.Div. - Master of Divinity',
       icon: 'psychology'
     },
