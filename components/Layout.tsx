@@ -14,7 +14,6 @@ const Layout: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'Programa CPE', path: '/programas' },
     { name: 'Equipo', path: '/equipo' },
-    { name: 'Biblioteca', path: '/biblioteca' },
     { name: 'Nosotros', path: '/nosotros' },
     { name: 'Ética', path: '/etica' },
   ];
@@ -118,7 +117,6 @@ const Layout: React.FC = () => {
               <ul className="space-y-3 text-sm text-gray-300">
                 <li><Link to="/programas" className="hover:text-secondary transition-colors">CPE América Latina</Link></li>
                 <li><Link to="/programas" className="hover:text-secondary transition-colors">Formación Clínica</Link></li>
-                <li><Link to="/biblioteca" className="hover:text-secondary transition-colors">Biblioteca Virtual</Link></li>
                 <li><a href="#" className="hover:text-secondary transition-colors">Webinars y Eventos</a></li>
               </ul>
             </div>
@@ -138,7 +136,7 @@ const Layout: React.FC = () => {
               <ul className="space-y-4 text-sm text-gray-300">
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined text-secondary text-lg mt-0.5">mail</span>
-                  <a href="mailto:info@espiritualidadclinica.org" className="hover:text-white transition-colors cursor-pointer">info@espiritualidadclinica.org</a>
+                  <a href="mailto:contacto@espiritualidadclinica.org" className="hover:text-white transition-colors cursor-pointer">contacto@espiritualidadclinica.org</a>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="material-symbols-outlined text-secondary text-lg mt-0.5">location_on</span>

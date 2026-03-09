@@ -6,7 +6,7 @@ const Team: React.FC = () => {
       name: 'Salvador Morin, BCC',
       title: 'Director de Educación',
       desc: 'Especialista en cuidado espiritual intercultural con más de 15 años de experiencia liderando programas de CPE en entornos hospitalarios de alta complejidad.',
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCriKaZpQoaXoYy77aFKTikLLPEeM8ptNe4W8H3zonVt0GYifBntqCdKegrBVrxyQfXf8uRRJhtjnZYMf3vzP767H77g4288e_1ey2H_gjTztphuX3DTnDP-aiY_sdYd7Sfk0kQxXjRbVdsZoOCx9v7r7jC0niSYV-9FlzRMK94p3wgGqP9eDJ-gkVKAFOLS87VjkyHklXuwDCX-4vzzjDz0de-iYX0mYWW3dyxydQYw7TxNhdFo9Xpl1Aq9Y7477Hmgtd-8ihd9FA',
+      img: '/icons/Team/image.png',
       cred: 'BCC - Board Certified Chaplain',
       icon: 'school'
     },
@@ -18,22 +18,6 @@ const Team: React.FC = () => {
       cred: 'M.Div. - Master of Divinity',
       icon: 'psychology'
     },
-    {
-      name: 'Dr. Esteban Montilla',
-      title: 'Profesor Titular',
-      desc: 'Autor reconocido en el campo de la consejería familiar y espiritualidad, aportando una perspectiva académica rigurosa a nuestro centro.',
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC10DYfQxaH9y8TrKAHgNv8VKHlEfeEdN19YHQFLiL78XLtvjERGfk-tXRv20nP0DrfCkNr7WEOjqcYIz3jGwJKoxJQpAQyeNREjnsW21naU1A59fL_GJo9N3KlAlh5BwfMfyD-UcfdyWFMMWH2idKOFs-5b4_Q49zZnZ5HBq8cy9Po77s72jAsYqQk-Z3lTOMgSDiCkfTA46VzIfWclL2EgFqjKLtLBoXrue10T6T4TnNBVDL8HF7VT2bLgzXUDJj-FqKN6gNjp7k',
-      cred: 'PhD in Counseling Psychology',
-      icon: 'menu_book'
-    },
-    {
-      name: 'Rev. Patricia Berrón',
-      title: 'Coordinadora de Programas',
-      desc: 'Pionera en el desarrollo de programas de cuidado espiritual para comunidades hispanas, con un enfoque en la justicia social y el empoderamiento.',
-      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDAn0rsvPrGXgBN22OblIAIHREkwCHWMBTkzKWTdhje_MfCOV3dZjtL64viWswQj1a9NpF0xi50vka2b5fhIniIYPu2nRT9uZkgfRwJWPCDXjGgnoylIELIJrWF5BcmDI6VNqFhkeekt5skYCB094caWJ6vubciZkgI0vAacKXrzunM-ttGiEubm9mBi2EU_1npNPjxQbNXMtAfeNxVWgIesdez1-2Cr6RS1mdc3bzT_bjh8oTaJS8pGGxMXf0g43_gv2gXdl_J5nw',
-      cred: 'Certified Educator',
-      icon: 'diversity_3'
-    }
   ];
 
   return (
@@ -48,14 +32,14 @@ const Team: React.FC = () => {
       </div>
 
       <div className="max-w-[1200px] mx-auto px-5 lg:px-10 pb-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="flex flex-wrap justify-center gap-8">
           {faculty.map((member, index) => (
-            <div key={index} className="group bg-white dark:bg-surface-dark rounded-none overflow-hidden shadow-soft hover:shadow-lg hover:shadow-secondary/20 transition-all duration-500 border-t-4 border-secondary flex flex-col h-full hover:-translate-y-1">
+            <div key={index} className="group bg-white dark:bg-surface-dark rounded-none overflow-hidden shadow-soft hover:shadow-lg hover:shadow-secondary/20 transition-all duration-500 border-t-4 border-secondary flex flex-col h-full hover:-translate-y-1 w-full md:w-[calc(50%-1rem)] lg:w-[280px]">
               <div className="relative overflow-hidden aspect-[3/4] bg-slate-100">
-                <img 
-                  alt={member.name} 
-                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 filter saturate-[0.85] group-hover:saturate-100" 
-                  src={member.img} 
+                <img
+                  alt={member.name}
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 filter saturate-[0.85] group-hover:saturate-100"
+                  src={member.img}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                   <span className="text-secondary text-xs font-bold uppercase tracking-wider mb-1">Credenciales</span>
