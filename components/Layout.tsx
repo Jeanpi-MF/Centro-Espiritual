@@ -138,10 +138,6 @@ const Layout: React.FC = () => {
                   <span className="material-symbols-outlined text-secondary text-lg mt-0.5">mail</span>
                   <a href="mailto:contacto@espiritualidadclinica.org" className="hover:text-white transition-colors cursor-pointer">contacto@espiritualidadclinica.org</a>
                 </li>
-                <li className="flex items-start gap-3">
-                  <span className="material-symbols-outlined text-secondary text-lg mt-0.5">location_on</span>
-                  <span>Ciudad de México, MX<br />Av. Reforma 222</span>
-                </li>
               </ul>
             </div>
           </div>
