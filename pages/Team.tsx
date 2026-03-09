@@ -6,7 +6,7 @@ const Team: React.FC = () => {
       name: 'Salvador Morin, BCC',
       title: 'Director de Educación',
       desc: 'Especialista en cuidado espiritual intercultural con más de 15 años de experiencia liderando programas de CPE en entornos hospitalarios de alta complejidad.',
-      img: '/icons/Team/image.png',
+      img: '/icons/Team/Salvador.png',
       cred: 'BCC - Board Certified Chaplain',
       icon: 'school'
     },
