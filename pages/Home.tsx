@@ -159,23 +159,23 @@ const Home: React.FC = () => {
               <div className="space-y-6">
                 <div className="flex gap-4 items-center p-4 bg-white/5 rounded-lg border border-white/5 hover:border-secondary/30 transition-colors cursor-pointer">
                   <div className="w-14 h-14 bg-primary-dark rounded flex flex-col items-center justify-center border border-white/10">
-                    <span className="text-[10px] uppercase tracking-wider text-secondary">Sep</span>
+                    <span className="text-[10px] uppercase tracking-wider text-secondary">Enero</span>
                     <span className="text-xl font-bold">15</span>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white">Unidad de Otoño - Intensivo</h4>
-                    <p className="text-xs text-gray-400">Modalidad Híbrida • 12 Semanas</p>
+                    <h4 className="font-bold text-white">Semestre I</h4>
+                    <p className="text-xs text-gray-400">Enero a Mayo</p>
                   </div>
                 </div>
 
                 <div className="flex gap-4 items-center p-4 bg-white/5 rounded-lg border border-white/5 hover:border-secondary/30 transition-colors cursor-pointer">
                   <div className="w-14 h-14 bg-primary-dark rounded flex flex-col items-center justify-center border border-white/10">
-                    <span className="text-[10px] uppercase tracking-wider text-secondary">Ene</span>
+                    <span className="text-[10px] uppercase tracking-wider text-secondary">Agosto</span>
                     <span className="text-xl font-bold">10</span>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white">Unidad de Primavera</h4>
-                    <p className="text-xs text-gray-400">Modalidad Online • 20 Semanas</p>
+                    <h4 className="font-bold text-white">Semestre II</h4>
+                    <p className="text-xs text-gray-400">Agosto a Diciembre</p>
                   </div>
                 </div>
               </div>
@@ -192,22 +192,20 @@ const Home: React.FC = () => {
       <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-display font-bold text-primary dark:text-white mb-4">Nuestro Cuerpo Docente</h2>
-          <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-16 font-light">
-            Supervisores diplomados y clínicos con décadas de experiencia en el acompañamiento espiritual y la psicoterapia.
-          </p>
+
 
           <div className="flex flex-wrap justify-center gap-12">
             {[
               {
                 name: 'Salvador Morin',
-                role: 'Diplomate Supervisor, CPSP',
-                desc: 'Especialista en trauma y resiliencia espiritual con más de 20 años de experiencia clínica.',
+                role: 'Board Certified Chaplain',
+                desc: 'Consejero espiritual clínico especializado en oncología y cuidados paliativos. Supervisor clínico y docente de cuidado espiritual general y especializado.',
                 img: '/icons/Team/Salvador.png'
               },
               {
                 name: 'Rev. Jorge Espinel',
-                role: 'Supervisor Clínico',
-                desc: 'Teólogo y educador apasionado por la integración de la psicología y la espiritualidad en la práctica clínica pastoral moderna.',
+                role: 'Board Certified Chaplain',
+                desc: 'Consejero espiritual clínico especializado en oncología y cuidados paliativos. Supervisor clínico y docente de cuidado espiritual general y especializado.',
                 img: '/icons/Team/Jorge.png'
               },
             ].map((prof, idx) => (

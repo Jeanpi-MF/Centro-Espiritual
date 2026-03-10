@@ -48,7 +48,7 @@ const Layout: React.FC = () => {
                 onClick={() => navigate('/contacto')}
                 className="bg-secondary hover:bg-secondary-dark text-white px-6 py-2.5 rounded-full font-medium transition-colors shadow-lg shadow-secondary/20 text-sm uppercase tracking-wide"
               >
-                Agendar Entrevista
+                Contactar al Centro
               </button>
             </div>
 

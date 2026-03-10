@@ -27,7 +27,7 @@ const Team: React.FC = () => {
         <h2 className="text-primary dark:text-white text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-8">Nuestro Equipo Docente</h2>
         <div className="w-16 h-1 bg-secondary mb-8"></div>
         <p className="text-gray-600 dark:text-gray-400 text-lg md:text-xl max-w-3xl font-light leading-relaxed px-4">
-          Conozca a los líderes en educación clínica pastoral que guían nuestra misión. Un grupo de expertos dedicados a formar la próxima generación de líderes espirituales con rigor académico y compasión humana.
+          Conozca a los líderes en educación clínica pastoral que guían nuestra misión. Expertos dedicados a formar la próxima generación de cuidadores espirituales con rigor académico y compasión humana.
         </p>
       </div>
 
