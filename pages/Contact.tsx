@@ -81,7 +81,7 @@ const Contact: React.FC = () => {
                 <div className="space-y-6 mt-12">
                   {[
                     { icon: 'mail', title: 'Correo Electrónico', val: 'contacto@espiritualidadclinica.org' },
-                    { icon: 'location_on', title: 'Ubicación', val: 'Av. Providencia 1234, Of. 605\nSantiago, Chile' },
+                    { icon: 'location_on', title: 'Ubicación', val: 'Lima, Peru' },
                     { icon: 'schedule', title: 'Horario de Atención', val: 'Lunes a Viernes: 09:00 - 18:00' }
                   ].map((info, i) => (
                     <div key={i} className="flex items-start">

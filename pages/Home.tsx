@@ -25,10 +25,13 @@ const Home: React.FC = () => {
             <span className="text-secondary">Espiritualidad Clínica</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mb-10 font-light leading-relaxed">
-            Integramos el modelo biopsicosocial y la espiritualidad profunda para formar consejeros y cuidadores espirituales clínicos competentes. Un espacio académico donde la ciencia y el alma convergen.
+            ¿Dónde convergen la ciencia del cuidado y el arte de cuidar? Integramos el enfoque biopsicosocial y espiritual con la práctica clínica y la reflexión teológica profunda. Formamos a los líderes del cuidado espiritual: profesionales capaces de sostener lo sagrado en el entorno clínico con herramientas sólidas y compromiso ético.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-secondary hover:bg-secondary-dark text-primary font-bold px-8 py-3 rounded text-sm uppercase tracking-wide flex items-center gap-2 transition-colors">
+            <button
+              onClick={() => navigate('/programas')}
+              className="bg-secondary hover:bg-secondary-dark text-primary font-bold px-8 py-3 rounded text-sm uppercase tracking-wide flex items-center gap-2 transition-colors"
+            >
               Ver Programa CPE
               <span className="material-symbols-outlined text-lg">arrow_forward</span>
             </button>
@@ -198,14 +201,14 @@ const Home: React.FC = () => {
             {[
               {
                 name: 'Salvador Morin',
-                role: 'Board Certified Chaplain',
-                desc: 'Consejero espiritual clínico especializado en oncología y cuidados paliativos. Supervisor clínico y docente de cuidado espiritual general y especializado.',
+                role: 'Líder regional en formación y supervisión de cuidado espiritual clínicoBoard Certified Chaplain',
+                desc: 'Consejero Espiritual Clínico certificado (BCC) en AUNA-Perú, especializado en oncología y cuidados paliativos. Referente en Latinoamérica, con roles en la ALCP y APCP. Supervisor de capellanes (CPSP) y docente de posgrado en Perú y Costa Rica. También es Diácono Mayor de la Iglesia Sirio Ortodoxa de Antioquía.',
                 img: '/icons/Team/Salvador.png'
               },
               {
                 name: 'Rev. Jorge Espinel',
-                role: 'Board Certified Chaplain',
-                desc: 'Consejero espiritual clínico especializado en oncología y cuidados paliativos. Supervisor clínico y docente de cuidado espiritual general y especializado.',
+                role: 'Experto en integración del cuidado espiritual en sistemas de salud complejos',
+                desc: 'Consejero Espiritual Clínico especializado en cuidados paliativos y acompañamiento pediátrico, con certificación internacional en EE. UU. Lidera el soporte espiritual en oncología pediátrica en Colombia. Docente universitario y asesor en organizaciones regionales, enfocado en integrar el cuidado espiritual en Sudamérica.',
                 img: '/icons/Team/Jorge.png'
               },
             ].map((prof, idx) => (

@@ -4,16 +4,16 @@ const Team: React.FC = () => {
   const faculty = [
     {
       name: 'Salvador Morin, BCC',
-      title: 'Director de Educación',
-      desc: 'Especialista en cuidado espiritual intercultural con más de 15 años de experiencia liderando programas de CPE en entornos hospitalarios de alta complejidad.',
+      title: 'Docente y Supervisor Clínico',
+      desc: 'Referente internacional en el desarrollo de estándares para la capellanía clínica en Latinoamérica. Se especializa en la supervisión de procesos de certificación profesional y en la integración del modelo de Cuidados Paliativos en instituciones de alta complejidad académica.',
       img: '/icons/Team/Salvador.png',
       cred: 'BCC - Board Certified Chaplain',
       icon: 'school'
     },
     {
       name: 'Rev. Jorge Espinel, M.Div.',
-      title: 'Supervisor Clínico',
-      desc: 'Teólogo y educador apasionado por la integración de la psicología y la espiritualidad en la práctica clínica pastoral moderna.',
+      title: 'Docente y Supervisor Clínico',
+      desc: 'Experto en la formación de competencias prácticas para el cuidado espiritual en crisis y el duelo pediátrico. Lidera programas de formación clínica pastoral con énfasis en la integración ética de la teología práctica dentro de sistemas de salud multiculturales.',
       img: '/icons/Team/Jorge.png',
       cred: 'M.Div. - Master of Divinity',
       icon: 'psychology'
@@ -57,10 +57,7 @@ const Team: React.FC = () => {
                 <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-4 mb-6 flex-grow font-light">
                   {member.desc}
                 </p>
-                <a href="#" className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-primary dark:text-white hover:text-secondary transition-all group/link mt-auto pt-4 border-t border-gray-100 dark:border-gray-800">
-                  Ver Trayectoria
-                  <span className="material-symbols-outlined text-secondary text-lg group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
-                </a>
+
               </div>
             </div>
           ))}

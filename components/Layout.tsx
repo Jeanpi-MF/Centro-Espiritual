@@ -28,7 +28,7 @@ const Layout: React.FC = () => {
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigate('/')}>
               <img
                 alt="Centro de Espiritualidad Clínica"
-                className="h-20 w-auto object-contain"
+                className="h-56 w-auto object-contain"
                 src="/icons/Logo.png"
               />
             </div>
@@ -102,10 +102,11 @@ const Layout: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div className="col-span-1 md:col-span-1">
               <div className="flex items-center gap-3 mb-6">
-                <div className="h-10 w-10 text-secondary flex items-center justify-center border-2 border-secondary rounded-full">
-                  <span className="material-symbols-outlined text-xl">star</span>
-                </div>
-                <span className="font-display font-bold text-2xl tracking-tight">CEC</span>
+                <img
+                  alt="Estrella"
+                  className="h-10 w-10 object-contain"
+                  src="/icons/Estrella.png"
+                />
               </div>
               <p className="text-gray-300 text-sm leading-relaxed font-light">
                 Comprometidos con la excelencia en el cuidado espiritual clínico y la formación de profesionales en toda América Latina. Integrando fe, ciencia y salud.
